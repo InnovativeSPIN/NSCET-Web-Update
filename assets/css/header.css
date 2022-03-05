@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+a {
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+header .navbar {
+    padding: 0;
+}
+
+header .navbar .navigation {
+    background-color: rgb(16, 69, 101);
+}
+
+header .navbar .navigation h1 {
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 36px;
+    font-family: Adamina, serif;
+}
+
+header .navbar .navigation h1:hover {
+    text-shadow: -2px 1px 2px rgba(0, 0, 0, 0.9);
+    color: rgb(255, 247, 247);
+}
+
+header .navbar .nav-link {
+    font-family: 'Lato', sans-serif;
+}
+
+header .primary-navi .nav-link {
+    padding: 0;
+    margin: 8px 14px 4px 14px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+header .secondry-navi .nav-link {
+    padding: 0;
+    margin: 4px 12px 8px 12px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+}
+
+header .primary-navi li .nav-link,
+header .secondry-navi li .nav-link {
+    color: white !important;
+}
+
+.primary-navi li:hover,
+.secondry-navi li:hover {
+    background-color: whitesmoke;
+}
+
+.primary-navi li:hover a,
+.secondry-navi li:hover a {
+    color: rgb(16, 69, 101) !important;
+}
